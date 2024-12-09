@@ -20,7 +20,7 @@ const Navbar = () => {
       <div className="container mx-auto flex items-center justify-between p-4">
         {/* Logo */}
         <div className="">
-          <Link href="#" className="text-blue-600">
+          <Link href="/" className="text-blue-600">
           <Image src={logo2} alt='logo2' className='w-[60px] h-[30px] sm:w-[120px] sm:h-[50px]'/>
           </Link>
         </div>
