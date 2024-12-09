@@ -27,12 +27,12 @@ const Navbar = () => {
 
         {/* Navigation Links */}
         <nav className="hidden lg:block space-x-6">
-          <Link href={'pages/Allproductpage'} className="text-gray-700  ">New & Featured</Link>
-          <Link href={'pages/Allproductpage'} className="text-gray-700  ">Men</Link>
-          <Link href={'pages/Allproductpage'} className="text-gray-700  ">Women</Link>
-          <Link href={'pages/Allproductpage'} className="text-gray-700  ">Kids</Link>
-          <Link href={'pages/Allproductpage'} className="text-gray-700  ">Sale</Link>
-          <Link href={'pages/Allproductpage'} className="text-gray-700  ">SNKRS</Link>
+          <Link href={'/pages/Allproductpage'} className="text-gray-700  ">New & Featured</Link>
+          <Link href={'/pages/Allproductpage'} className="text-gray-700  ">Men</Link>
+          <Link href={'/pages/Allproductpage'} className="text-gray-700  ">Women</Link>
+          <Link href={'/pages/Allproductpage'} className="text-gray-700  ">Kids</Link>
+          <Link href={'/pages/Allproductpage'} className="text-gray-700  ">Sale</Link>
+          <Link href={'/pages/Allproductpage'} className="text-gray-700  ">SNKRS</Link>
         </nav>
 
         {/* Search Bar and Icons */}
@@ -48,7 +48,7 @@ const Navbar = () => {
           <button className="hidden md:block text-gray-700 hover:text-red-600">
           <FaRegHeart className='cursor-pointer w-[25px] h-[25px]' />
           </button>
-          <Link href={'pages/Cartitempage'}>
+          <Link href={'/pages/Cartitempage'}>
           <button className=" hidden md:block text-gray-700 hover:text-black">
           <IoBagHandleOutline className='cursor-pointer w-[25px] h-[25px]' />
           </button>
@@ -67,12 +67,12 @@ const Navbar = () => {
       {/* Mobile Navigation (Initially Hidden, toggled via useState) */}
       {isMenuOpen && (
         <div className="lg:hidden bg-white p-4 space-y-4">
-          <Link href={'pages/Allproductpage'} className="text-gray-700  block">New & Featured</Link>
-          <Link href={'pages/Allproductpage'} className="text-gray-700  block">Men</Link>
-          <Link href={'pages/Allproductpage'} className="text-gray-700  block">Women</Link>
-          <Link href={'pages/Allproductpage'} className="text-gray-700  block">Kids</Link>
-          <Link href={'pages/Allproductpage'} className="text-gray-700  block">Sale</Link>
-          <Link href={'pages/Allproductpage'} className="text-gray-700  block">SNKRS</Link>
+          <Link href={'/pages/Allproductpage'} className="text-gray-700  block">New & Featured</Link>
+          <Link href={'/pages/Allproductpage'} className="text-gray-700  block">Men</Link>
+          <Link href={'/pages/Allproductpage'} className="text-gray-700  block">Women</Link>
+          <Link href={'/pages/Allproductpage'} className="text-gray-700  block">Kids</Link>
+          <Link href={'/pages/Allproductpage'} className="text-gray-700  block">Sale</Link>
+          <Link href={'/pages/Allproductpage'} className="text-gray-700  block">SNKRS</Link>
         </div>
       )}
     </header>
