@@ -16,13 +16,13 @@ export default function Header() {
         <Link href="#" className="hover:underline">
           Find a Store |
         </Link>
-        <Link href="#" className="hover:underline">
+        <Link href="/pages/Help" className="hover:underline">
           Help |
         </Link>
-        <Link href="#" className="hover:underline">
+        <Link href="/pages/Joinus" className="hover:underline">
           Join Us |
         </Link>
-        <Link href="#" className="hover:underline">
+        <Link href="/pages/Signin" className="hover:underline">
           Sign In
         </Link>
       </nav>

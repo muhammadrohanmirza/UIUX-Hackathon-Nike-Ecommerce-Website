@@ -79,7 +79,7 @@ const Hero = () => {
          <div className=' grid grid-cols-1 sm:grid-cols-1 md:grid-cols-1 lg:grid-cols-2 xl:grid-cols-3  ml-2 sm:ml-0 mb-5 mt-5 gap-10'> 
         
 
-          <Link href={'pages/Productdetailpage'}>
+          <Link href={'/pages/Productdetailpage'}>
           <div className="flex justify-center items-center">
   <div className="w-[300px] sm:w-[400px] bg-white cursor-pointer rounded-lg">
     <div className="w-full h-[400px] relative">
@@ -309,9 +309,9 @@ const Hero = () => {
 
 <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-5 px-4">
   {/* Men's Section */}
-  <div className="flex flex-col items-center h-auto mb-5 mt-5">
+  <div className="flex flex-col items-center justify-center h-auto mb-5 mt-5">
     <div className="w-full sm:w-[90%] md:w-[80%] lg:w-[75%] cursor-pointer rounded-lg">
-      <div className="w-full h-[300px] sm:h-[350px] lg:h-[400px] relative">
+      <div className="w-full h-[300px] sm:h-[350px] lg:h-[400px] relative flex items-center justify-center">
         <Image
           src={pic1}
           alt="pic1"
@@ -325,9 +325,9 @@ const Hero = () => {
   </div>
 
   {/* Women's Section */}
-  <div className="flex flex-col items-center h-auto mb-5 mt-5">
+  <div className="flex flex-col items-center justify-center h-auto mb-5 mt-5">
     <div className="w-full sm:w-[90%] md:w-[80%] lg:w-[75%] cursor-pointer rounded-lg">
-      <div className="w-full h-[300px] sm:h-[350px] lg:h-[400px] relative">
+      <div className="w-full h-[300px] sm:h-[350px] lg:h-[400px] relative flex items-center justify-center">
         <Image
           src={pic2}
           alt="pic2"
@@ -341,9 +341,9 @@ const Hero = () => {
   </div>
 
   {/* Kids' Section */}
-  <div className="flex flex-col items-center h-auto mb-5 mt-5">
+  <div className="flex flex-col items-center justify-center h-auto mb-5 mt-5">
     <div className="w-full sm:w-[90%] md:w-[80%] lg:w-[75%] cursor-pointer rounded-lg">
-      <div className="w-full h-[300px] sm:h-[350px] lg:h-[400px] relative">
+      <div className="w-full h-[300px] sm:h-[350px] lg:h-[400px] relative flex items-center justify-center">
         <Image
           src={pic3}
           alt="pic3"
@@ -356,6 +356,7 @@ const Hero = () => {
     </div>
   </div>
 </div>
+
 
 <div className="flex items-center justify-center mt-5 mb-5">
   <div className="flex flex-col gap-8 sm:gap-10 md:flex-row md:gap-12 lg:gap-20">
