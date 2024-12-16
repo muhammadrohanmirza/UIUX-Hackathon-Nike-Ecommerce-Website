@@ -1,6 +1,7 @@
 import React from 'react'
 import shose1 from '../../../../public/images/shose (1).png'
 import Image from 'next/image'
+import Link from 'next/link'
 const page = () => {
   return (
     <section className="text-gray-600 body-font overflow-hidden">
@@ -29,7 +30,9 @@ const page = () => {
             $58.00
           </span>
           <br />
+          <Link href={'/pages/Cartitempage'}>
           <button className='bg-black text-white mt-5 w-[160px] h-[40px] rounded-3xl text-sm sm:w-[170px] sm:h-[45px] md:w-[180px] md:h-[50px] lg:w-[200px] lg:h-[55px]'>Add To Cart</button>
+          </Link>
         </div>
       </div>
     </div>

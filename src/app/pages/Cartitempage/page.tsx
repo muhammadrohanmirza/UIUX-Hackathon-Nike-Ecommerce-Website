@@ -4,6 +4,7 @@ import { RiDeleteBinLine } from "react-icons/ri";
 import img1 from '../../../../public/images/Image (1).png'
 import shose1 from '../../../../public/images/shose (1).png'
 import Image from 'next/image';
+import Link from 'next/link';
 
 const page = () => {
   return (
@@ -96,9 +97,11 @@ const page = () => {
             <span>Total</span>
             <span>₹ 20,890.00</span>
           </div>
+          <Link href={'/pages/Checkoutpage'}>
           <button className="w-full bg-black text-white py-2 rounded hover:bg-gray-800">
             Member Checkout
           </button>
+          </Link>
         </div>
       </div>
     </div>
