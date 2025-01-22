@@ -1,7 +1,7 @@
 import Image from "next/image"
 import logo from "../../../Assets/logo2.png"
 // import tick from "../../../Assets/tick.png"
-import Link from "next/link"
+// import Link from "next/link"
 export default function SignIn(){
     return(
         <div className="min-h-screen flex items-center justify-center bg-gray-50">
@@ -93,9 +93,9 @@ export default function SignIn(){
             <div className="text-center mt-4">
               <p className="text-sm text-gray-900">
                 Not a Member?{' '}
-                <Link href="/Join" className="text-black font-medium hover:underline">
+                <a href="/Join" className="text-black font-medium hover:underline">
                   Join Us.
-                </Link>
+                </a>
               </p>
             </div>
           </form>
