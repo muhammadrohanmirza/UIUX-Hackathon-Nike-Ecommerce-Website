@@ -1,7 +1,7 @@
 import Image from "next/image"
 import logo from "../../../Assets/logo2.png"
-// import tick from "../../../Assets/tick.png"
-// import Link from "next/link"
+import tick from "../../../Assets/tick.png"
+import Link from "next/link"
 export default function SignIn(){
     return(
         <div className="min-h-screen flex items-center justify-center bg-gray-50">

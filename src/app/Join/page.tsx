@@ -1,6 +1,6 @@
 import Image from "next/image"
 import logo from "../../../Assets/logo2.png"
-// import box from "../../../Assets/box.png"
+import box from "../../../Assets/box.png"
 import Link from "next/link"
 
 

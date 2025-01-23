@@ -1,6 +1,5 @@
 import Image from "next/image"
 import hero from "../../../Assets/hero.png"
-import Link from "next/link"
 export default function Hero(){
     return(
         <div>
@@ -8,7 +7,7 @@ export default function Hero(){
                 <p className="text-[14px] font-medium">Hello Nike App</p>
                 <div className="flex gap-1">
                 <p className="text-[10px] sm:text-[12px]">Download the app to access everything Nike.</p>
-                <Link href={'#'}><p className="text-[10px] sm:text-[12px] underline font-bold"> Get Your Great</p></Link>
+                <p className="text-[10px] sm:text-[12px] underline font-bold"> Get Your Great</p>
                 </div>
             </div>
             <div className="px-4 lg:px-6 xl:flex xl:justify-center xl:items-center">
